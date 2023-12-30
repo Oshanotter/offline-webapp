@@ -74,6 +74,11 @@
 <button onclick="getGameList('Gen I')">Create Overlay</button>
 
 <script>
+
+    if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('service-worker.js');
+    }
+    
     screen.orientation.lock("landscape");
 
     var overlay;
