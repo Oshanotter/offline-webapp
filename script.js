@@ -1,3 +1,5 @@
+screen.orientation.lock("landscape");
+
 var overlay;
     var resultsPage;
     var startText;
