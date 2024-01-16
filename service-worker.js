@@ -8,7 +8,9 @@ const PRECACHE_URLS = [
   'styles.css',
   'script.js', 
   'manifest.json',
-  'icon.png'
+  'icon.png',
+  'https://bulbapedia.bulbagarden.net/wiki/Oshawott_(Pok%C3%A9mon)',
+  'https://bulbapedia.bulbagarden.net/wiki/Dewott_(Pok%C3%A9mon)'
 ];
 
 // The install handler takes care of precaching the resources we always need.
