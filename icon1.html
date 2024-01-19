@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimum-scale=1, initial-scale=1, minimal-ui, viewport-fit=cover">
+    <title>Hope</title>
+    
+
+<link rel="icon" href="https://lh3.googleusercontent.com/_a0hICe8XHQR-5wkJSI729fBvHbju0setIEm_dbfT-y1ZjVe9yzJpqSEP0PDur-mTzWl_yR-oygmXhAgdmo7vRsHpOoP-AGhzPGVHY2v0yaQhFn4">
+<link rel="apple-touch-icon" type="image/png" href="https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/business6/uploads/forumosa/optimized/2X/6/6dae39f7514da2822816fe89c2623e8aefa037bf_2_180x180.png">
+    <link rel="apple-touch-icon-precomposed" href="https://i.imgur.com/wJ3ilos.png">
+
+    
+</head>
+<body>
+
+<!-- Button to trigger createOverlay -->
+<button onclick="getDictionary('pokemon.json')">Pokèmon</button>
+<button onclick="getDictionary('test.json')">Test</button>
+<button onclick="deferredPrompt.prompt()">Install</button>
+
+<script>
+
+    if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('service-worker.js');
+    }
+
+</script>
+<script src="script.js" defer></script>
+
+</body>
+</html>
